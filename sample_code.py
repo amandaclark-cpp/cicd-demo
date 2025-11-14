@@ -17,4 +17,4 @@ def divide(a, b):
 
 
 if __name__ == "__main__":
-    print("Sample library loaded.")
+    print("Sample library loaded - Test run #1.")

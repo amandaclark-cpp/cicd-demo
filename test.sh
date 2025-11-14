@@ -2,5 +2,7 @@
 set -euo pipefail
 
 echo "Running tests for the sample project..."
-pytest -q
+
+# Ensure the project root is on PYTHONPATH so tests can import sample_code
+PYTHONPATH=. pytest -q
 
